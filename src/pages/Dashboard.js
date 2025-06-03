@@ -9,8 +9,8 @@ const Dashboard = () => {
   const [assignedShifts, setAssignedShifts] = useState([
     { id: 1, date: '2024-10-15', time: '09:00-12:00', location: 'Chennai', task: 'Service' },
     { id: 2, date: '2024-10-16', time: '13:00-17:00', location: 'Coimbatore', task: 'Bar Logistics' },
-    { id: 3, date: '2024-10-17', time: '10:00-14:00', location: 'Shop', task: 'Tambola-Tickets' },
-    { id: 4, date: '2024-10-18', time: '14:00-18:00', location: 'Bangalore', task: 'Cloakroam' }
+    { id: 3, date: '2024-10-17', time: '10:00-14:00', location: 'Chennai', task: 'Tambola-Tickets' },
+    { id: 4, date: '2024-10-18', time: '15:00-18:00', location: 'Bangalore', task: 'Cloakroam' }
   ]);
 
   // Mocked completed shifts for testing
@@ -187,15 +187,15 @@ const handleRemoveCategory = (category) => {
           </div>
             
 
-          <p><strong>Name:</strong> Oshiyani </p>
+          <p><strong>Name:</strong>SHRI SENA M</p>
           <p><strong>Total Hours Volunteered:</strong> 12 hours</p>
           <p><strong>Upcoming Shifts:</strong></p>
           <ul>
             <li>
               <strong>Date:</strong> 2024-10-21<br />
               <strong>Location:</strong>Coimbatore<br />
-              <strong>Location Manager:</strong>Srii<br/>
-              <strong>Contact Number:</strong> 
+              <strong>Location Manager:</strong>JOHN<br/>
+              <strong>Contact Number:</strong> 9876543210 <br/>
             </li>
           </ul>
 
